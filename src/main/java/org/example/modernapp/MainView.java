@@ -26,7 +26,6 @@ public class MainView extends VerticalLayout {
 
     public MainView(PersonRepository personRepository) {
         this.personRepository = personRepository;
-
         grid.setColumns("firstName","lastName","email");
         add(getForm(), grid);
         refreshGrid();
