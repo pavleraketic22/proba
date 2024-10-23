@@ -32,6 +32,10 @@ public class MainView extends VerticalLayout {
 
     }
     private Component getForm() {
+
+
+
+         String s = "lalalla";
         var layout = new HorizontalLayout();
         layout.setAlignItems(Alignment.BASELINE);
         var addButton = new Button("Add");
